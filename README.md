@@ -1,6 +1,6 @@
-### Github Search (Aurelia)
+### Github Search
 
-Github Search SPA built with Aurelia framework (Node >= 4.x & NPM >= 3)
+Github Search SPA built with Aurelia framework
 
 **Prerequisite**
 ```bash
@@ -29,5 +29,7 @@ go to [http://localhost:9000](http://localhost:9000) in your browser
 $ au build --env prod
 ```
 upload 'index.html' and 'scripts' folder to webserver's root.
+
+**Screnn Shot**
 
 ![screen 1](https://github.com/eiffelqiu/aurelia-githubsearch/blob/master/capture.jpg?raw=true)
