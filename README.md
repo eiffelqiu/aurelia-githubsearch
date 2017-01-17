@@ -1,7 +1,9 @@
- 
-### Quick start
-**Make sure you have Node version >= 5.0 and NPM >= 3**
+### Github Search (Aurelia)
+![screen 1](http://github.com/eiffelqiu/aurelia-githubsearch/capture.jpg)
 
+**Node >= 4.x and NPM >= 3**
+
+**Prerequisite**
 ```bash
 
 # install aurelia-cli
@@ -13,15 +15,17 @@ npm install aurelia-cli -g
 npm install
 ```
 
+**Development**
 ```
 # start the server
 au run --watch
 
 ```
-go to [http://0.0.0.0:9000](http://0.0.0.0:9000) or [http://localhost:9000](http://localhost:9000) in your browser
+go to [http://localhost:9000](http://localhost:9000) in your browser
 
+
+**Production**
 ```bash
 # production
 au run --env prod
 ```
-
