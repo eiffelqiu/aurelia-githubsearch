@@ -5,13 +5,13 @@ export class App {
 		config.map([
 			{
 				route: ["","github"],
-				moduleId: "github",
+				moduleId: "./pages/github",
 				nav: true,
 				title: "Github"
 			},
 			{
 				route: "about",
-				moduleId: "about",
+				moduleId: "./pages/about",
 				nav: true,
 				title: "About"
 			} 
