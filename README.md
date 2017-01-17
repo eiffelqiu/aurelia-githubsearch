@@ -28,7 +28,8 @@ go to [http://localhost:9000](http://localhost:9000) in your browser
 **Production**
 ```bash
 # production
-au run --env prod
+au build --env prod
 ```
+upload 'index.html' and 'scripts' folder to webserver's root.
 
 ![screen 1](https://github.com/eiffelqiu/aurelia-githubsearch/blob/master/capture.jpg?raw=true)
