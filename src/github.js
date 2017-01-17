@@ -7,7 +7,6 @@ export class Github {
 	constructor(http) {
 		this.http = http;
     this.username = 'eiffelqiu';
-    this.userInfo = {};
 	}
 
 	activate() {
@@ -21,10 +20,10 @@ export class Github {
   }
 
   getUser() {
-    return Promise.all(this.http.get(this.baseUrl).then(response => this.userInfo = response.content));
+    return this.http.get(this.baseUrl).then(response => this.userInfo = response.content);
   }
 
 	getRepos() {
-    return Promise.all(this.http.get(this.baseUrl + '/repos').then(response => this.repos = response.content));
+    return this.http.get(this.baseUrl + '/repos').then(response => this.repos = response.content);
 	}
 }
