@@ -1,5 +1,6 @@
 ### Github Search (Aurelia)
-![screen 1](https://github.com/eiffelqiu/aurelia-githubsearch/blob/master/capture.jpg?raw=true)
+
+Github Search SPA built with Aurelia framework
 
 **Node >= 4.x and NPM >= 3**
 
@@ -29,3 +30,5 @@ go to [http://localhost:9000](http://localhost:9000) in your browser
 # production
 au run --env prod
 ```
+
+![screen 1](https://github.com/eiffelqiu/aurelia-githubsearch/blob/master/capture.jpg?raw=true)
