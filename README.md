@@ -1,5 +1,5 @@
 ### Github Search (Aurelia)
-![screen 1](http://github.com/eiffelqiu/aurelia-githubsearch/capture.jpg)
+![screen 1](https://github.com/eiffelqiu/aurelia-githubsearch/blob/master/capture.jpg?raw=true)
 
 **Node >= 4.x and NPM >= 3**
 
