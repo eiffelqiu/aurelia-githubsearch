@@ -8,7 +8,6 @@ export class Github {
 		this.http = http;
     this.username = 'eiffelqiu';
     this.userInfo = {};
-    this.baseUrl = 'https://api.github.com/users/' + this.username ;
 	}
 
 	activate() {
@@ -16,6 +15,7 @@ export class Github {
 	}
 
 	search() {
+    this.baseUrl = 'https://api.github.com/users/' + this.username;
     this.getRepos();
     this.getUser();
   }
@@ -25,6 +25,6 @@ export class Github {
   }
 
 	getRepos() {
-    return Promise.all(this.http.get(this.baseUrl + '/repos?per_page=100&page=').then(response => this.repos = response.content));
+    return Promise.all(this.http.get(this.baseUrl + '/repos').then(response => this.repos = response.content));
 	}
 }
