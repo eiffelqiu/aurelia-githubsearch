@@ -2,11 +2,11 @@
 
 Github Search SPA built with Aurelia framework
 
-*** configuration code ***
+**configuration code**
 
 ![screen 2](https://github.com/eiffelqiu/aurelia-githubsearch/blob/master/capture2.jpg?raw=true)
 
-*** application logic ***
+**application logic**
 
 ![screen 3](https://github.com/eiffelqiu/aurelia-githubsearch/blob/master/capture3.jpg?raw=true)
 
