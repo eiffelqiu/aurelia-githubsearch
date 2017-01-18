@@ -2,11 +2,13 @@
 
 Github Search SPA built with Aurelia framework（10 lines router configuration, 30 lines logic）
 
-**configuration code**
+No other framework could be simpler.
+
+**configuration code** (10 lines)
 
 ![screen 2](https://github.com/eiffelqiu/aurelia-githubsearch/blob/master/capture2.jpg?raw=true)
 
-**application logic**
+**application logic** (30 lines)
 
 ![screen 3](https://github.com/eiffelqiu/aurelia-githubsearch/blob/master/capture3.jpg?raw=true)
 
