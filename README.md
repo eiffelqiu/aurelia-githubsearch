@@ -1,6 +1,6 @@
 ### Github Search
 
-Github Search SPA built with Aurelia framework
+Github Search SPA built with Aurelia framework（10 lines router configuration, 30 lines logic）
 
 **Prerequisite**
 ```bash
