@@ -4,12 +4,9 @@
     <div class="col-md-12">
       <form class="well">
         <div class="row">
-          <div class="col-md-9">
+          <div class="col-md-12">
             <input type="text" class="form-control col-md-3" placeholder="enter github username"
-                   name="username" value.bind="username"></div>
-          <div class="col-md-3">
-            <button class="btn btn-default" click.trigger="search()">search</button>
-          </div>
+                   name="username" value.bind="username" keyup.trigger="search()"></div>
         </div>
       </form>
     </div>
