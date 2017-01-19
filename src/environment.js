@@ -1,5 +1,5 @@
 export default {
-  debug: true,
-  testing: true,
+  debug: false,
+  testing: false,
   githubUrl: 'https://api.github.com/'
 };

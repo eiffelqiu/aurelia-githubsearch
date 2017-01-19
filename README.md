@@ -2,7 +2,9 @@
 
 Github Search SPA built with Aurelia framework（10 lines router configuration, 30 lines logic）
 
-No other framework could be simpler.
+No other framework could be simpler
+
+online demo: http://www.likenote.com/githubsearch/
 
 **configuration code** (10 lines)
 
